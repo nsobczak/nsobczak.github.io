@@ -44,8 +44,8 @@ h2, h3, h4, h5, h6 {
 }
 
 .links-box {
-    margin: 40px 1px 40px 0;
-    padding: 8px 40px 10px 40px;
+    margin: 40px 0px 40px 0px;
+    padding: 8px 40px 10px 10px;
     /*background-color: #a3f5eb;*/
     border-radius: 40px;
     border: double;
@@ -63,8 +63,9 @@ h2, h3, h4, h5, h6 {
 
 a {
     margin: 20px;
-    width: 100%;
-    display: inline-table;
+    display:grid;
+    justify-items: center;
+    justify-content: space-evenly;
 
     font-size: 1.6em;
     color: #173D48;
@@ -81,7 +82,7 @@ a:hover {
 }
 
 .li_link {
-    list-style-image: url(../images/icons/linkb.png);
+    /*list-style-image: url(../images/icons/linkb.png);*/
     padding: 20px;
     font: inherit;
     background: inherit;
@@ -89,17 +90,17 @@ a:hover {
     border: none;
 }
 
-#li_link_github {
-    list-style-image: url(../images/icons/github.png);
-}
+/*#li_link_github {*/
+    /*list-style-image: url(../images/icons/github.png);*/
+/*}*/
 
-#li_link_linkedin {
-    list-style-image: url(../images/icons/linkedin.png);
-}
+/*#li_link_linkedin {*/
+    /*list-style-image: url(../images/icons/linkedin.png);*/
+/*}*/
 
-#li_link_playstore {
-    list-style-image: url(../images/icons/Google_Play.png);
-}
+/*#li_link_playstore {*/
+    /*list-style-image: url(../images/icons/Google_Play.png);*/
+/*}*/
 
 
 /*======================================*/
